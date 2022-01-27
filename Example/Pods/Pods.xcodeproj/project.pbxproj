@@ -1,0 +1,1027 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		087C6493A29B160013F5ED3124D3D484 /* CBNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B14DF7F8C822BCAF9BEF054064648B /* CBNetworkRequest.swift */; };
+		0F90CB65F450346831DEF9FF2D511443 /* CBPaymentConfigResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A756458F5A7CA539E17B9A647E884655 /* CBPaymentConfigResource.swift */; };
+		1956B827CF1AB84302DF1B1D83634850 /* CBTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD6148EA2D39951FC1EED01945B92B4 /* CBTypes.swift */; };
+		1E573ACE2613E6C0BF68ACD02FDB04CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
+		20CCB486265AB209003E7AAD /* CBPurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CCB484265AB209003E7AAD /* CBPurchaseManager.swift */; };
+		20CCB487265AB209003E7AAD /* CBPurchaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CCB485265AB209003E7AAD /* CBPurchaseError.swift */; };
+		3957C792EBCF33A0861D197FBEF24DAB /* CBPaymentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4420D30AABBAC258886F1FB428EAA51B /* CBPaymentDetail.swift */; };
+		3C75D040D59B7F60C39EFE10C56C0515 /* Chargebee-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81468CD61E2DFF50966982F527109C20 /* Chargebee-dummy.m */; };
+		413C59A9C9B03C963A44E439A1CBC99A /* Pods-Chargebee_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 524577EF3BB643F4B93EE04F0EFCD6EE /* Pods-Chargebee_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41D39A8E467333F1A48C18876A05C955 /* CBTemporaryToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA9A24F5FC40E4AF307D2757047F1B7 /* CBTemporaryToken.swift */; };
+		462CC44C0C715BD9DC8B5219221ADC16 /* CBAddon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED39B2DC6F93F5F2B672FDAD7A21599 /* CBAddon.swift */; };
+		49105A37000DFDA35589170BFD917D92 /* CBPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14986B2CE6A1B9095D18EE45A430125 /* CBPlan.swift */; };
+		555EA567CFF83552128331019FBC1CD2 /* Pods-Chargebee_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE486D3AA96701DAB66799FE7B36A08 /* Pods-Chargebee_Example-dummy.m */; };
+		62917EBC1BAA652931C140AB8A4A9618 /* Chargebee-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2857111851A95438375339CB563D024C /* Chargebee-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		752C139E21A5963BDD9DB3541A68B322 /* Pods-Chargebee_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE07C28AC7C259DC6ED43AADDFE61FD2 /* Pods-Chargebee_Tests-dummy.m */; };
+		85CE3C96CE96BD26837596086CD843AC /* CBAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF7343272CDD413D2963E589F9AA7C /* CBAPIRequest.swift */; };
+		8C3B7F94BC8053696A8D2D9D7C19A7B4 /* CBTokenResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822F9376F7530BF2688F6D90039096CA /* CBTokenResource.swift */; };
+		90C8D07026A914AA0004EE81 /* CBItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8D06F26A914AA0004EE81 /* CBItem.swift */; };
+		90C8D07426A9179B0004EE81 /* CBItemListResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8D07326A9179B0004EE81 /* CBItemListResource.swift */; };
+		90C8D08226AA953B0004EE81 /* CBItemResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8D08126AA953B0004EE81 /* CBItemResource.swift */; };
+		90C8D08C26AE85230004EE81 /* Chargebee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8D08A26AE85230004EE81 /* Chargebee.swift */; };
+		90C8D08D26AE85230004EE81 /* CBEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8D08B26AE85230004EE81 /* CBEnvironment.swift */; };
+		90C8D0A426AE8A320004EE81 /* CBValidateReceiptResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8D0A226AE8A320004EE81 /* CBValidateReceiptResource.swift */; };
+		90C8D0A526AE8A320004EE81 /* CBReceiptValidationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8D0A326AE8A320004EE81 /* CBReceiptValidationManager.swift */; };
+		90C8D0A926AE8A600004EE81 /* CBSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8D0A726AE8A5F0004EE81 /* CBSubscription.swift */; };
+		90C8D0AA26AE8A600004EE81 /* CBSubscriptionResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8D0A826AE8A5F0004EE81 /* CBSubscriptionResource.swift */; };
+		90C8D0AE26AE8BEF0004EE81 /* CBAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8D0AC26AE8BEF0004EE81 /* CBAuthentication.swift */; };
+		90C8D0AF26AE8BEF0004EE81 /* CBAuthenticationResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8D0AD26AE8BEF0004EE81 /* CBAuthenticationResource.swift */; };
+		939D4D5E76C22CA2FBFC166199E961B5 /* CBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080898D913C9EB5899F05D2703E773BD /* CBError.swift */; };
+		BA6C50D61200BE031FB87060339D8A11 /* CBPlanResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26A273CD7BDA92AB4567D0EFA9E2ED /* CBPlanResource.swift */; };
+		BD934BD745208CF6165A96FE467668D8 /* StripeTokenResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642E89C224F77A6D7D9F5020CAED71A2 /* StripeTokenResource.swift */; };
+		C40240A45FFAABAB6177C7A1F8F89D3C /* Pods-Chargebee_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A56E3C5A2F4DEE48EAEA91884B498A74 /* Pods-Chargebee_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9E739388F6172DE7CEB440EC7C7675F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
+		CBC7B7C29A474D4F497C4474CC1E4BDA /* StripeTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E1BC1331C9F2D99AE81AF6508AE20 /* StripeTokenizer.swift */; };
+		D4F3525126FA127200AA07E6 /* CBProductsV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F3525026FA127200AA07E6 /* CBProductsV1.swift */; };
+		D4F3525326FA127E00AA07E6 /* CBProductsV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F3525226FA127E00AA07E6 /* CBProductsV2.swift */; };
+		D59C73C0E4AF543A8B82E2790CA32AA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
+		D77BFEEAF3B106405B3FF60D73ED2112 /* CBToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE2E5455209B512E2E6AAE208A18F6 /* CBToken.swift */; };
+		E93AAE82807F4E1B3085DD665FBBB6AF /* CBAddOnResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E2056D9BAB7560BFE19583EA85652E /* CBAddOnResource.swift */; };
+		F63A1ED124B89B3C000A3044 /* CBResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A1ED024B89B3C000A3044 /* CBResult.swift */; };
+		F6D3A36524C56BB400D22E92 /* CBLoggerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D3A36424C56BB400D22E92 /* CBLoggerResource.swift */; };
+		F6D3A36724C5D94C00D22E92 /* CBLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D3A36624C5D94C00D22E92 /* CBLogger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A59C6FE0451C0FDA2FAD698643D431A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A68FC47DA3A25BF99535C6F4DB54C59;
+			remoteInfo = "Pods-Chargebee_Example";
+		};
+		F4A09A8B46A0721E143DEAA54F3CCDB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71EE13E200B17216F8F29E73E2F73FFB;
+			remoteInfo = Chargebee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		04FA54D340C9B32486A94E3D3F734DAD /* Pods-Chargebee_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Chargebee_Example-Info.plist"; sourceTree = "<group>"; };
+		080898D913C9EB5899F05D2703E773BD /* CBError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBError.swift; sourceTree = "<group>"; };
+		0D3F87E047AEF9DE7DACE535E1482F31 /* Chargebee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Chargebee.release.xcconfig; sourceTree = "<group>"; };
+		0EDD1A0FF2AC25A49B60A57124634049 /* Pods-Chargebee_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Chargebee_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20CCB484265AB209003E7AAD /* CBPurchaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBPurchaseManager.swift; sourceTree = "<group>"; };
+		20CCB485265AB209003E7AAD /* CBPurchaseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBPurchaseError.swift; sourceTree = "<group>"; };
+		24300C2C716C52F8BCD00D43193A42D8 /* Chargebee-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Chargebee-prefix.pch"; sourceTree = "<group>"; };
+		2857111851A95438375339CB563D024C /* Chargebee-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Chargebee-umbrella.h"; sourceTree = "<group>"; };
+		2BBE2E5455209B512E2E6AAE208A18F6 /* CBToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBToken.swift; sourceTree = "<group>"; };
+		2C01817616E76F935FF930FF509BA72F /* Pods-Chargebee_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chargebee_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C061463250766C9C05995AB8EE63E66 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		324A91F3CDC99F08532F74261122C6B5 /* Pods-Chargebee_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Chargebee_Tests-Info.plist"; sourceTree = "<group>"; };
+		3CE16505C69EE1AC396E1544525B636F /* Chargebee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Chargebee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F26A273CD7BDA92AB4567D0EFA9E2ED /* CBPlanResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBPlanResource.swift; sourceTree = "<group>"; };
+		4420D30AABBAC258886F1FB428EAA51B /* CBPaymentDetail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBPaymentDetail.swift; sourceTree = "<group>"; };
+		45BD733243A8A86CB1459D5F1240BD87 /* Pods-Chargebee_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chargebee_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		524577EF3BB643F4B93EE04F0EFCD6EE /* Pods-Chargebee_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Chargebee_Example-umbrella.h"; sourceTree = "<group>"; };
+		5430774099BEE923802489F007582802 /* Pods-Chargebee_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Chargebee_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B76CADD76285C23B6B46010B98846DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		642E89C224F77A6D7D9F5020CAED71A2 /* StripeTokenResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StripeTokenResource.swift; sourceTree = "<group>"; };
+		6ED39B2DC6F93F5F2B672FDAD7A21599 /* CBAddon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBAddon.swift; sourceTree = "<group>"; };
+		73EF7343272CDD413D2963E589F9AA7C /* CBAPIRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBAPIRequest.swift; sourceTree = "<group>"; };
+		80829F63166E214C399E72D9E3C77E29 /* Chargebee.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Chargebee.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		81468CD61E2DFF50966982F527109C20 /* Chargebee-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Chargebee-dummy.m"; sourceTree = "<group>"; };
+		822F9376F7530BF2688F6D90039096CA /* CBTokenResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBTokenResource.swift; sourceTree = "<group>"; };
+		87B14DF7F8C822BCAF9BEF054064648B /* CBNetworkRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBNetworkRequest.swift; sourceTree = "<group>"; };
+		90C8D06F26A914AA0004EE81 /* CBItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBItem.swift; sourceTree = "<group>"; };
+		90C8D07326A9179B0004EE81 /* CBItemListResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBItemListResource.swift; sourceTree = "<group>"; };
+		90C8D08126AA953B0004EE81 /* CBItemResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBItemResource.swift; sourceTree = "<group>"; };
+		90C8D08A26AE85230004EE81 /* Chargebee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chargebee.swift; sourceTree = "<group>"; };
+		90C8D08B26AE85230004EE81 /* CBEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBEnvironment.swift; sourceTree = "<group>"; };
+		90C8D0A226AE8A320004EE81 /* CBValidateReceiptResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBValidateReceiptResource.swift; sourceTree = "<group>"; };
+		90C8D0A326AE8A320004EE81 /* CBReceiptValidationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBReceiptValidationManager.swift; sourceTree = "<group>"; };
+		90C8D0A726AE8A5F0004EE81 /* CBSubscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBSubscription.swift; sourceTree = "<group>"; };
+		90C8D0A826AE8A5F0004EE81 /* CBSubscriptionResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBSubscriptionResource.swift; sourceTree = "<group>"; };
+		90C8D0AC26AE8BEF0004EE81 /* CBAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBAuthentication.swift; sourceTree = "<group>"; };
+		90C8D0AD26AE8BEF0004EE81 /* CBAuthenticationResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBAuthenticationResource.swift; sourceTree = "<group>"; };
+		99E2056D9BAB7560BFE19583EA85652E /* CBAddOnResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBAddOnResource.swift; sourceTree = "<group>"; };
+		9A0A596263132F1867404273262BABF4 /* Pods-Chargebee_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chargebee_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E78BE53516D0E21614311C1A9CB7BB9 /* Pods_Chargebee_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chargebee_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56E3C5A2F4DEE48EAEA91884B498A74 /* Pods-Chargebee_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Chargebee_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A756458F5A7CA539E17B9A647E884655 /* CBPaymentConfigResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBPaymentConfigResource.swift; sourceTree = "<group>"; };
+		A8E0970A8BCDECB06094D0DB0098A7B3 /* Pods_Chargebee_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chargebee_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCB3BE9D549ACBEEFFDED23317DF5FD /* Pods-Chargebee_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chargebee_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AE07C28AC7C259DC6ED43AADDFE61FD2 /* Pods-Chargebee_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Chargebee_Tests-dummy.m"; sourceTree = "<group>"; };
+		AE782892ED9923576219D100DE383F57 /* Pods-Chargebee_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Chargebee_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFDE4F4B4076F471AE4596000819707F /* Pods-Chargebee_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Chargebee_Example.modulemap"; sourceTree = "<group>"; };
+		BDEB7E9289C07451B50C22644423D7B5 /* Chargebee.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Chargebee.modulemap; sourceTree = "<group>"; };
+		C14986B2CE6A1B9095D18EE45A430125 /* CBPlan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBPlan.swift; sourceTree = "<group>"; };
+		CB5F1D7E8F69F2E11F96177F6F022DC6 /* Pods-Chargebee_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chargebee_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CDA9A24F5FC40E4AF307D2757047F1B7 /* CBTemporaryToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBTemporaryToken.swift; sourceTree = "<group>"; };
+		CFE486D3AA96701DAB66799FE7B36A08 /* Pods-Chargebee_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Chargebee_Example-dummy.m"; sourceTree = "<group>"; };
+		D21FD1157F63175036F53D1F7841E266 /* Pods-Chargebee_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chargebee_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D4F3525026FA127200AA07E6 /* CBProductsV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBProductsV1.swift; sourceTree = "<group>"; };
+		D4F3525226FA127E00AA07E6 /* CBProductsV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBProductsV2.swift; sourceTree = "<group>"; };
+		D9F711D6D42DC1029CE902B421E74F26 /* Pods-Chargebee_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Chargebee_Tests.modulemap"; sourceTree = "<group>"; };
+		E280E68252C2B2CC4A7A5CBB1DE3AE45 /* Pods-Chargebee_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Chargebee_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6CED78C22AB90F81314977FA5DED3CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F183E51CF9918904A15DC145057ACAB2 /* Chargebee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Chargebee.debug.xcconfig; sourceTree = "<group>"; };
+		F63A1ED024B89B3C000A3044 /* CBResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBResult.swift; sourceTree = "<group>"; };
+		F6D3A36424C56BB400D22E92 /* CBLoggerResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBLoggerResource.swift; sourceTree = "<group>"; };
+		F6D3A36624C5D94C00D22E92 /* CBLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBLogger.swift; sourceTree = "<group>"; };
+		FB3E8C56930D17473788D13B8DEBD474 /* Chargebee-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Chargebee-Info.plist"; sourceTree = "<group>"; };
+		FCD6148EA2D39951FC1EED01945B92B4 /* CBTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBTypes.swift; sourceTree = "<group>"; };
+		FE4E1BC1331C9F2D99AE81AF6508AE20 /* StripeTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StripeTokenizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B744375D7DAC9DADE6AEC27A6B4DFA2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E573ACE2613E6C0BF68ACD02FDB04CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18B56D0666009EE86874E777746EA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E739388F6172DE7CEB440EC7C7675F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7B9D7CBAA243B5EA9EEFB720EB17A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59C73C0E4AF543A8B82E2790CA32AA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BDA96AB755F7235E86A569F7CC661E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CE16505C69EE1AC396E1544525B636F /* Chargebee.framework */,
+				A8E0970A8BCDECB06094D0DB0098A7B3 /* Pods_Chargebee_Example.framework */,
+				9E78BE53516D0E21614311C1A9CB7BB9 /* Pods_Chargebee_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E285571EF144F8DACCF451128B351DD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1980ADCBADE1EE797C54B038399DA45E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20C254469DD5818F234601C8CCCB7489 /* Pods-Chargebee_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D9F711D6D42DC1029CE902B421E74F26 /* Pods-Chargebee_Tests.modulemap */,
+				0EDD1A0FF2AC25A49B60A57124634049 /* Pods-Chargebee_Tests-acknowledgements.markdown */,
+				5430774099BEE923802489F007582802 /* Pods-Chargebee_Tests-acknowledgements.plist */,
+				AE07C28AC7C259DC6ED43AADDFE61FD2 /* Pods-Chargebee_Tests-dummy.m */,
+				ACCB3BE9D549ACBEEFFDED23317DF5FD /* Pods-Chargebee_Tests-frameworks.sh */,
+				324A91F3CDC99F08532F74261122C6B5 /* Pods-Chargebee_Tests-Info.plist */,
+				A56E3C5A2F4DEE48EAEA91884B498A74 /* Pods-Chargebee_Tests-umbrella.h */,
+				2C01817616E76F935FF930FF509BA72F /* Pods-Chargebee_Tests.debug.xcconfig */,
+				9A0A596263132F1867404273262BABF4 /* Pods-Chargebee_Tests.release.xcconfig */,
+			);
+			name = "Pods-Chargebee_Tests";
+			path = "Target Support Files/Pods-Chargebee_Tests";
+			sourceTree = "<group>";
+		};
+		20CCB483265AB209003E7AAD /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				20CCB484265AB209003E7AAD /* CBPurchaseManager.swift */,
+				20CCB485265AB209003E7AAD /* CBPurchaseError.swift */,
+				D4F3525026FA127200AA07E6 /* CBProductsV1.swift */,
+				D4F3525226FA127E00AA07E6 /* CBProductsV2.swift */,
+			);
+			name = Purchase;
+			path = Chargebee/Classes/Purchase;
+			sourceTree = "<group>";
+		};
+		29081797E861A44B39EAAFECCBF66DC2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				73EF7343272CDD413D2963E589F9AA7C /* CBAPIRequest.swift */,
+				87B14DF7F8C822BCAF9BEF054064648B /* CBNetworkRequest.swift */,
+			);
+			name = Network;
+			path = Chargebee/Classes/Network;
+			sourceTree = "<group>";
+		};
+		3C9E2B216883E214C867EA3505CECC4E /* Token */ = {
+			isa = PBXGroup;
+			children = (
+				F63A1ED224B8AD0F000A3044 /* Stripe */,
+				A756458F5A7CA539E17B9A647E884655 /* CBPaymentConfigResource.swift */,
+				4420D30AABBAC258886F1FB428EAA51B /* CBPaymentDetail.swift */,
+				CDA9A24F5FC40E4AF307D2757047F1B7 /* CBTemporaryToken.swift */,
+				2BBE2E5455209B512E2E6AAE208A18F6 /* CBToken.swift */,
+				822F9376F7530BF2688F6D90039096CA /* CBTokenResource.swift */,
+				FCD6148EA2D39951FC1EED01945B92B4 /* CBTypes.swift */,
+			);
+			name = Token;
+			path = Chargebee/Classes/Token;
+			sourceTree = "<group>";
+		};
+		3E285571EF144F8DACCF451128B351DD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */,
+				2C061463250766C9C05995AB8EE63E66 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5874F03A0A857BED5269A43351A8BE40 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5EC76D094A9612E1A82765FA10F9F20 /* Chargebee */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5A2F95D75549AA70AEE5EAB745899B91 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE6C92ECF1166091C466937ED798AECF /* Pods-Chargebee_Example */,
+				20C254469DD5818F234601C8CCCB7489 /* Pods-Chargebee_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6F78065597E590008C66D9EF3FC29017 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDEB7E9289C07451B50C22644423D7B5 /* Chargebee.modulemap */,
+				81468CD61E2DFF50966982F527109C20 /* Chargebee-dummy.m */,
+				FB3E8C56930D17473788D13B8DEBD474 /* Chargebee-Info.plist */,
+				24300C2C716C52F8BCD00D43193A42D8 /* Chargebee-prefix.pch */,
+				2857111851A95438375339CB563D024C /* Chargebee-umbrella.h */,
+				F183E51CF9918904A15DC145057ACAB2 /* Chargebee.debug.xcconfig */,
+				0D3F87E047AEF9DE7DACE535E1482F31 /* Chargebee.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Chargebee";
+			sourceTree = "<group>";
+		};
+		90C8D06E26A914650004EE81 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				90C8D06F26A914AA0004EE81 /* CBItem.swift */,
+				90C8D07326A9179B0004EE81 /* CBItemListResource.swift */,
+				90C8D08126AA953B0004EE81 /* CBItemResource.swift */,
+			);
+			name = Item;
+			path = Chargebee/Classes/Item;
+			sourceTree = "<group>";
+		};
+		90C8D08926AE85230004EE81 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				90C8D08A26AE85230004EE81 /* Chargebee.swift */,
+				90C8D08B26AE85230004EE81 /* CBEnvironment.swift */,
+			);
+			name = Configuration;
+			path = Chargebee/Classes/Configuration;
+			sourceTree = "<group>";
+		};
+		90C8D0A126AE8A320004EE81 /* ReceiptValidation */ = {
+			isa = PBXGroup;
+			children = (
+				90C8D0A226AE8A320004EE81 /* CBValidateReceiptResource.swift */,
+				90C8D0A326AE8A320004EE81 /* CBReceiptValidationManager.swift */,
+			);
+			name = ReceiptValidation;
+			path = Chargebee/Classes/ReceiptValidation;
+			sourceTree = "<group>";
+		};
+		90C8D0A626AE8A5F0004EE81 /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				90C8D0A726AE8A5F0004EE81 /* CBSubscription.swift */,
+				90C8D0A826AE8A5F0004EE81 /* CBSubscriptionResource.swift */,
+			);
+			name = Subscription;
+			path = Chargebee/Classes/Subscription;
+			sourceTree = "<group>";
+		};
+		90C8D0AB26AE8BEF0004EE81 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				90C8D0AC26AE8BEF0004EE81 /* CBAuthentication.swift */,
+				90C8D0AD26AE8BEF0004EE81 /* CBAuthenticationResource.swift */,
+			);
+			name = Authentication;
+			path = Chargebee/Classes/Authentication;
+			sourceTree = "<group>";
+		};
+		C5EC76D094A9612E1A82765FA10F9F20 /* Chargebee */ = {
+			isa = PBXGroup;
+			children = (
+				90C8D0AB26AE8BEF0004EE81 /* Authentication */,
+				90C8D0A626AE8A5F0004EE81 /* Subscription */,
+				90C8D0A126AE8A320004EE81 /* ReceiptValidation */,
+				90C8D08926AE85230004EE81 /* Configuration */,
+				90C8D06E26A914650004EE81 /* Item */,
+				20CCB483265AB209003E7AAD /* Purchase */,
+				C718BD3FAA9E12CF6B7DE75599DE0D81 /* Addon */,
+				F6D3A36324C56B3B00D22E92 /* Logger */,
+				29081797E861A44B39EAAFECCBF66DC2 /* Network */,
+				DE816D026DD16B0FBD7B70D645DC870D /* Plan */,
+				E661D5A6A74AD9A1489ED2C7F0867270 /* Pod */,
+				F7A50D7D8F76C46C7C0D84EE827CE25C /* Result */,
+				6F78065597E590008C66D9EF3FC29017 /* Support Files */,
+				3C9E2B216883E214C867EA3505CECC4E /* Token */,
+			);
+			name = Chargebee;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C718BD3FAA9E12CF6B7DE75599DE0D81 /* Addon */ = {
+			isa = PBXGroup;
+			children = (
+				6ED39B2DC6F93F5F2B672FDAD7A21599 /* CBAddon.swift */,
+				99E2056D9BAB7560BFE19583EA85652E /* CBAddOnResource.swift */,
+			);
+			name = Addon;
+			path = Chargebee/Classes/Addon;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5874F03A0A857BED5269A43351A8BE40 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				1980ADCBADE1EE797C54B038399DA45E /* Pods */,
+				0BDA96AB755F7235E86A569F7CC661E8 /* Products */,
+				5A2F95D75549AA70AEE5EAB745899B91 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DE6C92ECF1166091C466937ED798AECF /* Pods-Chargebee_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AFDE4F4B4076F471AE4596000819707F /* Pods-Chargebee_Example.modulemap */,
+				E280E68252C2B2CC4A7A5CBB1DE3AE45 /* Pods-Chargebee_Example-acknowledgements.markdown */,
+				AE782892ED9923576219D100DE383F57 /* Pods-Chargebee_Example-acknowledgements.plist */,
+				CFE486D3AA96701DAB66799FE7B36A08 /* Pods-Chargebee_Example-dummy.m */,
+				D21FD1157F63175036F53D1F7841E266 /* Pods-Chargebee_Example-frameworks.sh */,
+				04FA54D340C9B32486A94E3D3F734DAD /* Pods-Chargebee_Example-Info.plist */,
+				524577EF3BB643F4B93EE04F0EFCD6EE /* Pods-Chargebee_Example-umbrella.h */,
+				45BD733243A8A86CB1459D5F1240BD87 /* Pods-Chargebee_Example.debug.xcconfig */,
+				CB5F1D7E8F69F2E11F96177F6F022DC6 /* Pods-Chargebee_Example.release.xcconfig */,
+			);
+			name = "Pods-Chargebee_Example";
+			path = "Target Support Files/Pods-Chargebee_Example";
+			sourceTree = "<group>";
+		};
+		DE816D026DD16B0FBD7B70D645DC870D /* Plan */ = {
+			isa = PBXGroup;
+			children = (
+				C14986B2CE6A1B9095D18EE45A430125 /* CBPlan.swift */,
+				3F26A273CD7BDA92AB4567D0EFA9E2ED /* CBPlanResource.swift */,
+			);
+			name = Plan;
+			path = Chargebee/Classes/Plan;
+			sourceTree = "<group>";
+		};
+		E661D5A6A74AD9A1489ED2C7F0867270 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				80829F63166E214C399E72D9E3C77E29 /* Chargebee.podspec */,
+				5B76CADD76285C23B6B46010B98846DB /* LICENSE */,
+				E6CED78C22AB90F81314977FA5DED3CA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F63A1ED224B8AD0F000A3044 /* Stripe */ = {
+			isa = PBXGroup;
+			children = (
+				FE4E1BC1331C9F2D99AE81AF6508AE20 /* StripeTokenizer.swift */,
+				642E89C224F77A6D7D9F5020CAED71A2 /* StripeTokenResource.swift */,
+			);
+			path = Stripe;
+			sourceTree = "<group>";
+		};
+		F6D3A36324C56B3B00D22E92 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				F6D3A36424C56BB400D22E92 /* CBLoggerResource.swift */,
+				F6D3A36624C5D94C00D22E92 /* CBLogger.swift */,
+			);
+			name = Logger;
+			path = Chargebee/Classes/Logger;
+			sourceTree = "<group>";
+		};
+		F7A50D7D8F76C46C7C0D84EE827CE25C /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				080898D913C9EB5899F05D2703E773BD /* CBError.swift */,
+				F63A1ED024B89B3C000A3044 /* CBResult.swift */,
+			);
+			name = Result;
+			path = Chargebee/Classes/Result;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		171399C9DE6F9D07BA970A96A7C31934 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40240A45FFAABAB6177C7A1F8F89D3C /* Pods-Chargebee_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6465AFB8C15193E661F15A9FAD9957A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62917EBC1BAA652931C140AB8A4A9618 /* Chargebee-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5CDF0FA28D8B96037D9D1D686C47E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413C59A9C9B03C963A44E439A1CBC99A /* Pods-Chargebee_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A68FC47DA3A25BF99535C6F4DB54C59 /* Pods-Chargebee_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909A4933FF95471379FBB132C6D318ED /* Build configuration list for PBXNativeTarget "Pods-Chargebee_Example" */;
+			buildPhases = (
+				AC5CDF0FA28D8B96037D9D1D686C47E1 /* Headers */,
+				CC9100AE07C22968882E3536DE40A3C8 /* Sources */,
+				DE7B9D7CBAA243B5EA9EEFB720EB17A5 /* Frameworks */,
+				14C9EB0D2FB701CAA1B69D575C9D19CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				998D03DE520B5C03760C6B15DFEAA5A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Chargebee_Example";
+			productName = "Pods-Chargebee_Example";
+			productReference = A8E0970A8BCDECB06094D0DB0098A7B3 /* Pods_Chargebee_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71EE13E200B17216F8F29E73E2F73FFB /* Chargebee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CC04FBD65182919F9CCD12735A5F81 /* Build configuration list for PBXNativeTarget "Chargebee" */;
+			buildPhases = (
+				6465AFB8C15193E661F15A9FAD9957A8 /* Headers */,
+				333603FF64272079ECC11C7DCD972703 /* Sources */,
+				B744375D7DAC9DADE6AEC27A6B4DFA2F /* Frameworks */,
+				9C2ADEA8DD5394CE35A536067CB9889D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chargebee;
+			productName = Chargebee;
+			productReference = 3CE16505C69EE1AC396E1544525B636F /* Chargebee.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2299F42A93375680A072DB012A0620F /* Pods-Chargebee_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF595DD624A8524D483340B060B8628D /* Build configuration list for PBXNativeTarget "Pods-Chargebee_Tests" */;
+			buildPhases = (
+				171399C9DE6F9D07BA970A96A7C31934 /* Headers */,
+				3FAF7A3C82ED28F22BEA880838DE57AF /* Sources */,
+				C18B56D0666009EE86874E777746EA1A /* Frameworks */,
+				D8C6C0CBB9891BABF3568502D04694A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF208FCE61F2541AE8E88F9968E0CD1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Chargebee_Tests";
+			productName = "Pods-Chargebee_Tests";
+			productReference = 9E78BE53516D0E21614311C1A9CB7BB9 /* Pods_Chargebee_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0BDA96AB755F7235E86A569F7CC661E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71EE13E200B17216F8F29E73E2F73FFB /* Chargebee */,
+				2A68FC47DA3A25BF99535C6F4DB54C59 /* Pods-Chargebee_Example */,
+				B2299F42A93375680A072DB012A0620F /* Pods-Chargebee_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14C9EB0D2FB701CAA1B69D575C9D19CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2ADEA8DD5394CE35A536067CB9889D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C6C0CBB9891BABF3568502D04694A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333603FF64272079ECC11C7DCD972703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462CC44C0C715BD9DC8B5219221ADC16 /* CBAddon.swift in Sources */,
+				E93AAE82807F4E1B3085DD665FBBB6AF /* CBAddOnResource.swift in Sources */,
+				20CCB487265AB209003E7AAD /* CBPurchaseError.swift in Sources */,
+				85CE3C96CE96BD26837596086CD843AC /* CBAPIRequest.swift in Sources */,
+				90C8D0A526AE8A320004EE81 /* CBReceiptValidationManager.swift in Sources */,
+				90C8D0A926AE8A600004EE81 /* CBSubscription.swift in Sources */,
+				90C8D0AF26AE8BEF0004EE81 /* CBAuthenticationResource.swift in Sources */,
+				0F90CB65F450346831DEF9FF2D511443 /* CBPaymentConfigResource.swift in Sources */,
+				3957C792EBCF33A0861D197FBEF24DAB /* CBPaymentDetail.swift in Sources */,
+				90C8D08D26AE85230004EE81 /* CBEnvironment.swift in Sources */,
+				90C8D0AA26AE8A600004EE81 /* CBSubscriptionResource.swift in Sources */,
+				F6D3A36724C5D94C00D22E92 /* CBLogger.swift in Sources */,
+				90C8D07426A9179B0004EE81 /* CBItemListResource.swift in Sources */,
+				90C8D08226AA953B0004EE81 /* CBItemResource.swift in Sources */,
+				90C8D0A426AE8A320004EE81 /* CBValidateReceiptResource.swift in Sources */,
+				F63A1ED124B89B3C000A3044 /* CBResult.swift in Sources */,
+				41D39A8E467333F1A48C18876A05C955 /* CBTemporaryToken.swift in Sources */,
+				D77BFEEAF3B106405B3FF60D73ED2112 /* CBToken.swift in Sources */,
+				8C3B7F94BC8053696A8D2D9D7C19A7B4 /* CBTokenResource.swift in Sources */,
+				D4F3525126FA127200AA07E6 /* CBProductsV1.swift in Sources */,
+				D4F3525326FA127E00AA07E6 /* CBProductsV2.swift in Sources */,
+				1956B827CF1AB84302DF1B1D83634850 /* CBTypes.swift in Sources */,
+				3C75D040D59B7F60C39EFE10C56C0515 /* Chargebee-dummy.m in Sources */,
+				F6D3A36524C56BB400D22E92 /* CBLoggerResource.swift in Sources */,
+				939D4D5E76C22CA2FBFC166199E961B5 /* CBError.swift in Sources */,
+				087C6493A29B160013F5ED3124D3D484 /* CBNetworkRequest.swift in Sources */,
+				49105A37000DFDA35589170BFD917D92 /* CBPlan.swift in Sources */,
+				BA6C50D61200BE031FB87060339D8A11 /* CBPlanResource.swift in Sources */,
+				90C8D08C26AE85230004EE81 /* Chargebee.swift in Sources */,
+				90C8D07026A914AA0004EE81 /* CBItem.swift in Sources */,
+				20CCB486265AB209003E7AAD /* CBPurchaseManager.swift in Sources */,
+				CBC7B7C29A474D4F497C4474CC1E4BDA /* StripeTokenizer.swift in Sources */,
+				90C8D0AE26AE8BEF0004EE81 /* CBAuthentication.swift in Sources */,
+				BD934BD745208CF6165A96FE467668D8 /* StripeTokenResource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAF7A3C82ED28F22BEA880838DE57AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752C139E21A5963BDD9DB3541A68B322 /* Pods-Chargebee_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9100AE07C22968882E3536DE40A3C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555EA567CFF83552128331019FBC1CD2 /* Pods-Chargebee_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DF208FCE61F2541AE8E88F9968E0CD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Chargebee_Example";
+			target = 2A68FC47DA3A25BF99535C6F4DB54C59 /* Pods-Chargebee_Example */;
+			targetProxy = A59C6FE0451C0FDA2FAD698643D431A7 /* PBXContainerItemProxy */;
+		};
+		998D03DE520B5C03760C6B15DFEAA5A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Chargebee;
+			target = 71EE13E200B17216F8F29E73E2F73FFB /* Chargebee */;
+			targetProxy = F4A09A8B46A0721E143DEAA54F3CCDB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1884E47F4E3BFD82342B685B66C2D4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0A596263132F1867404273262BABF4 /* Pods-Chargebee_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Chargebee_Tests/Pods-Chargebee_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Chargebee_Tests/Pods-Chargebee_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A5EA30C9FD8E9925BF8BCC526F4F3C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F183E51CF9918904A15DC145057ACAB2 /* Chargebee.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Chargebee/Chargebee-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Chargebee/Chargebee-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Chargebee/Chargebee.modulemap";
+				PRODUCT_MODULE_NAME = Chargebee;
+				PRODUCT_NAME = Chargebee;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5914BD0A958C099527B66EEE8FE1F87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5F1D7E8F69F2E11F96177F6F022DC6 /* Pods-Chargebee_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Chargebee_Example/Pods-Chargebee_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Chargebee_Example/Pods-Chargebee_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62478C01F42FDA54CA1591D439655502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45BD733243A8A86CB1459D5F1240BD87 /* Pods-Chargebee_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Chargebee_Example/Pods-Chargebee_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Chargebee_Example/Pods-Chargebee_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DE342E9FE98184C5CA4543C5040AB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3F87E047AEF9DE7DACE535E1482F31 /* Chargebee.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Chargebee/Chargebee-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Chargebee/Chargebee-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Chargebee/Chargebee.modulemap";
+				PRODUCT_MODULE_NAME = Chargebee;
+				PRODUCT_NAME = Chargebee;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8488C08F11198E201426F826DED7CD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C01817616E76F935FF930FF509BA72F /* Pods-Chargebee_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Chargebee_Tests/Pods-Chargebee_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Chargebee_Tests/Pods-Chargebee_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CC04FBD65182919F9CCD12735A5F81 /* Build configuration list for PBXNativeTarget "Chargebee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5EA30C9FD8E9925BF8BCC526F4F3C8 /* Debug */,
+				6DE342E9FE98184C5CA4543C5040AB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909A4933FF95471379FBB132C6D318ED /* Build configuration list for PBXNativeTarget "Pods-Chargebee_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62478C01F42FDA54CA1591D439655502 /* Debug */,
+				5914BD0A958C099527B66EEE8FE1F87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF595DD624A8524D483340B060B8628D /* Build configuration list for PBXNativeTarget "Pods-Chargebee_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8488C08F11198E201426F826DED7CD09 /* Debug */,
+				1884E47F4E3BFD82342B685B66C2D4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

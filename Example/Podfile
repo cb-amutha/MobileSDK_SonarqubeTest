@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'Chargebee_Example' do
+  pod 'Chargebee', :path => '../'
+
+end
