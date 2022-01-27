@@ -83,7 +83,7 @@ class CBLoggerResource: CBAPIResource {
 struct LogDetail: Codable {
     
     let data: [String: String]
-    let type = "kvl"
+    //let type = "kvl"
     
 }
 
