@@ -6,8 +6,6 @@
 import Foundation
 
 public class Chargebee {
-//    public init() {
-//    }
 
     public static func configure(site: String, apiKey: String, sdkKey: String? = nil, allowErrorLogging: Bool = true) {
         CBEnvironment.configure(site: site, apiKey: apiKey, allowErrorLogging: allowErrorLogging, sdkKey: sdkKey)
