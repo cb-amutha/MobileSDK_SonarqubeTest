@@ -1,4 +1,4 @@
-name: "AFNetworking CI"
+name: "Swift CI"
 
 on: 
   push:
