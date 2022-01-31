@@ -3,11 +3,9 @@
     "description": "Sonar Cloud Scan starter workflow.",
     "iconName": "example-icon",
     "categories": [
-        "Go"
-    ],
-    "filePatterns": [
-        "package.json$",
-        "^Dockerfile",
-        ".*\\.md$"
+        "Swift":
+            "type": "programming"
+            "color": "#F05138"
+            "extensions": - ".swift"
     ]
 }
